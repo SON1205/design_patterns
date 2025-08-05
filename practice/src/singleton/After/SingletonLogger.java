@@ -17,6 +17,7 @@ public class SingletonLogger {
 //     * <p>
 //     * 즉, synchronized 키워드가 없어도 멀티스레드 환경에서 안전해!
 //     */
+    // enum 사용도 고려해보자
 //    private static class Holder {
 //        private static final SingletonLogger INSTANCE = new SingletonLogger();
 //    }
